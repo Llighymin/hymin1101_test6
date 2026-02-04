@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family:
+      "Pretendard Variable",
+      Pretendard,
+      -apple-system,
+      BlinkMacSystemFont,
+      system-ui,
+      Roboto,
+      "Helvetica Neue",
+      "Segoe UI",
+      "Apple SD Gothic Neo",
+      "Noto Sans KR",
+      "Malgun Gothic",
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
+
+@utility flex-between {
+  @apply flex items-center justify-between;
+}
+
+@utility flex-col-center {
+  @apply flex flex-col items-center justify-center;
+}
+
+@utility absolute-center {
+  @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+
+@utility snap-container {
+  @apply h-screen overflow-y-auto;
+  scroll-snap-type: y mandatory;
+}
+
+@utility snap-section {
+  @apply relative min-h-screen w-full;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+@utility section-title {
+  @apply text-lg font-medium tracking-wide text-gray-500;
+}
+
+@utility section-heading {
+  @apply mt-4 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl;
+}
+
+@utility section-description {
+  @apply mt-6 text-base leading-relaxed text-gray-600 md:text-lg;
+}
+
+@utility image-placeholder {
+  @apply flex-center bg-gray-200 text-gray-400;
+}
