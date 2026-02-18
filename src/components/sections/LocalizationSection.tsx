@@ -25,7 +25,7 @@ const LocalizationSection = () => {
                 <h2 className="text-sm font-medium uppercase tracking-wide text-gray-500 md:text-lg">
                   Localization
                 </h2>
-                <h3 className="mt-4 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl">
+                <h3 className="mt-4 text-3xl font-bold text-gray-900 md:text-4xl">
                   고정밀 위치 인식 시스템
                 </h3>
               </AnimatedElement>

@@ -35,7 +35,7 @@ const ElementalTechnology = () => {
                 <h2 className="text-sm font-medium uppercase tracking-wide text-gray-500 md:text-lg">
                   Elemental Technology
                 </h2>
-                <h3 className="mt-4 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl">
+                <h3 className="mt-4 text-3xl font-bold text-gray-900 md:text-4xl">
                   CHIMERA 자율주행의 핵심 기술 요소
                 </h3>
               </AnimatedElement>

@@ -1,5 +1,5 @@
 import HeroSection from "../components/sections/HeroSection";
-import ApplicationSection from "../components/sections/ApplicationSection";
+// import ApplicationSection from "../components/sections/ApplicationSection";
 import ElementalTechnology from "../components/sections/ElementalTechnology";
 import LocalizationSection from "../components/sections/LocalizationSection";
 import PerceptionSection from "../components/sections/PerceptionSection";
