@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="snap-container">
       <HeroSection />
-      <ApplicationSection />
+      {/* <ApplicationSection /> */}
       <ElementalTechnology />
       <LocalizationSection />
       <PerceptionSection />
