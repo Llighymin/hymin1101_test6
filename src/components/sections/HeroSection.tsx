@@ -22,7 +22,7 @@ const HeroSection = () => {
               </p>
 
               <h1 className="mt-4 text-4xl font-bold leading-tight text-white md:text-5xl lg:text-6xl">
-                Redefining Autonomous Mobility
+                Dreaming the Future of Mobility
               </h1>
 
               <div className="mt-8 space-y-4 text-xl leading-relaxed text-white/90">
